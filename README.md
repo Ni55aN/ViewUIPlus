@@ -5,7 +5,7 @@
 </p>
 
 <h1>
-View UI Plus
+View UI Plus with tree-shaking support
     <h3>An enterprise-level UI component library and front-end solution based on Vue.js 3</h3>
 </h1>
 
@@ -21,6 +21,7 @@ View UI Plus
 [https://www.iviewui.com](https://www.iviewui.com)
 
 ## Start On Cloud IDE
+
 [https://idegithub.com/view-design/ViewUIPlus](https://idegithub.com/view-design/ViewUIPlus)
 
 ## Features
@@ -28,11 +29,12 @@ View UI Plus
 - Dozens of useful and beautiful components.
 - Friendly API. It's made for people with any skills level.
 - Extensive documentations and demos.
-- It is  quite awesome.
+- It is quite awesome.
 
 ## Install
 
 We provide starter kit for you.
+
 - [View UI Plus Project (Based on Vue CLI)](https://github.com/view-design/view-ui-project-vuecli)
 - [View UI Plus Project (Based on Vite)](https://github.com/view-design/view-ui-project-vite)
 - [View UI Plus Project (Based on TypeScript)](https://github.com/view-design/view-ui-project-ts)
@@ -41,6 +43,7 @@ We provide starter kit for you.
 ### Install View UI Plus
 
 Using npm:
+
 ```
 npm install view-ui-plus --save
 ```
@@ -52,7 +55,8 @@ Using a script tag for global use:
 <link rel="stylesheet" href="dist/styles/viewuiplus.css">
 ```
 
-You can find more info [on the website](https://www.iviewui.com/view-ui-plus/guide/install).
+You can find more info
+[on the website](https://www.iviewui.com/view-ui-plus/guide/install).
 
 ## Usage
 
@@ -69,27 +73,32 @@ You can find more info [on the website](https://www.iviewui.com/view-ui-plus/gui
 Using css via `import`:
 
 ```js
-import 'view-ui-plus/dist/styles/viewuiplus.css'
+import "view-ui-plus/dist/styles/viewuiplus.css";
 ```
 
 ## Community
 
 If you want to contribute us or in case you are haiving any doubt.
 
-**Questions:** Find other users at the [Gitter chat](https://gitter.im/iview/iview) or post on [StackOverflow using `[iview-ui]` tag](https://stackoverflow.com/questions/tagged/iview-ui)  
-**Bugs:** [File a issue here](https://www.iviewui.com/new-issue) - please provide a example so we can help you better  
-**Contribute:** Contact us in [Gitter chat](https://gitter.im/iview/iview), WeChat or via mail to `admin@aresn.com`. PRs welcome!
+**Questions:** Find other users at the
+[Gitter chat](https://gitter.im/iview/iview) or post on
+[StackOverflow using `[iview-ui]` tag](https://stackoverflow.com/questions/tagged/iview-ui)
+**Bugs:** [File a issue here](https://www.iviewui.com/new-issue) - please
+provide a example so we can help you better **Contribute:** Contact us in
+[Gitter chat](https://gitter.im/iview/iview), WeChat or via mail to
+`admin@aresn.com`. PRs welcome!
 
 ## Major Contributors
-|Name|Avatar|Name|Avatar|Name|Avatar|
-|---|---|---|---|---|---|
-|[Aresn](https://github.com/icarusion) |  ![](https://avatars3.githubusercontent.com/u/5370542?v=3&s=60)  |[jingsam](https://github.com/jingsam) |  ![](https://avatars3.githubusercontent.com/u/1522494?v=3&s=60)  | [rijn](https://github.com/rijn)       |  ![](https://avatars2.githubusercontent.com/u/6976367?v=3&s=60)  |
-|[lcx960324](https://github.com/lcx960324)           |  ![](https://avatars3.githubusercontent.com/u/9768245?v=3&s=60)  |[GITleonine1989](https://github.com/GITleonine1989) |  ![](https://avatars1.githubusercontent.com/u/7582490?v=3&s=60)  |[huixisheng](https://github.com/huixisheng)         |  ![](https://avatars1.githubusercontent.com/u/1518967?v=3&s=60)  |
-|[Sergio Crisostomo](https://github.com/SergioCrisostomo)           |  ![](https://avatars3.githubusercontent.com/u/5614559?v=3&s=60)  |  [lison16](https://github.com/lison16)           |  ![](https://avatars3.githubusercontent.com/u/20942571?v=3&s=60) |  [Xotic750](https://github.com/Xotic750)    | ![](https://avatars3.githubusercontent.com/u/216041?v=3&s=60)   |
-[huanghong1125](https://github.com/huanghong1125) | ![](https://avatars3.githubusercontent.com/u/12794817?v=3&s=60) | [yangdan8](https://github.com/yangdan8) | ![](https://avatars2.githubusercontent.com/u/16515026?v=3&s=60) | [likuner](https://github.com/likuner)| ![](https://avatars3.githubusercontent.com/u/18632318?v=3&s=60)  |
 
+| Name                                                     | Avatar                                                          | Name                                                | Avatar                                                          | Name                                        | Avatar                                                          |
+| -------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------- | --------------------------------------------------------------- |
+| [Aresn](https://github.com/icarusion)                    | ![](https://avatars3.githubusercontent.com/u/5370542?v=3&s=60)  | [jingsam](https://github.com/jingsam)               | ![](https://avatars3.githubusercontent.com/u/1522494?v=3&s=60)  | [rijn](https://github.com/rijn)             | ![](https://avatars2.githubusercontent.com/u/6976367?v=3&s=60)  |
+| [lcx960324](https://github.com/lcx960324)                | ![](https://avatars3.githubusercontent.com/u/9768245?v=3&s=60)  | [GITleonine1989](https://github.com/GITleonine1989) | ![](https://avatars1.githubusercontent.com/u/7582490?v=3&s=60)  | [huixisheng](https://github.com/huixisheng) | ![](https://avatars1.githubusercontent.com/u/1518967?v=3&s=60)  |
+| [Sergio Crisostomo](https://github.com/SergioCrisostomo) | ![](https://avatars3.githubusercontent.com/u/5614559?v=3&s=60)  | [lison16](https://github.com/lison16)               | ![](https://avatars3.githubusercontent.com/u/20942571?v=3&s=60) | [Xotic750](https://github.com/Xotic750)     | ![](https://avatars3.githubusercontent.com/u/216041?v=3&s=60)   |
+| [huanghong1125](https://github.com/huanghong1125)        | ![](https://avatars3.githubusercontent.com/u/12794817?v=3&s=60) | [yangdan8](https://github.com/yangdan8)             | ![](https://avatars2.githubusercontent.com/u/16515026?v=3&s=60) | [likuner](https://github.com/likuner)       | ![](https://avatars3.githubusercontent.com/u/18632318?v=3&s=60) |
 
 ## License
+
 [MIT](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2016-present, ViewDesign

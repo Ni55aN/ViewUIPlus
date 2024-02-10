@@ -1,4 +1,4 @@
-const name = "view-ui-plus";
+const name = "view-ui-plus-es";
 const version = "1.3.16";
 const title = "ViewUIPlus";
 const description = "A high quality UI components Library with Vue.js 3";

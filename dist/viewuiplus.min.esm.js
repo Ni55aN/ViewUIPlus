@@ -1142,7 +1142,7 @@ var popper = { exports: {} };
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-(function(module, exports) {
+(function(module, exports2) {
   (function(global2, factory) {
     module.exports = factory();
   })(commonjsGlobal, function() {
@@ -6504,7 +6504,7 @@ function _sfc_render$1W(_ctx, _cache, $props, $setup, $data, $options) {
 }
 var Radio = /* @__PURE__ */ _export_sfc(_sfc_main$29, [["render", _sfc_render$1W]]);
 var dayjs_min = { exports: {} };
-(function(module, exports) {
+(function(module, exports2) {
   !function(t2, e) {
     module.exports = e();
   }(commonjsGlobal, function() {
@@ -15324,9 +15324,9 @@ function _sfc_render$1q(_ctx, _cache, $props, $setup, $data, $options) {
 }
 var CountDown = /* @__PURE__ */ _export_sfc(_sfc_main$1E, [["render", _sfc_render$1q]]);
 var countUp_min = { exports: {} };
-(function(module, exports) {
+(function(module, exports2) {
   !function(a, n) {
-    module.exports = n(commonjsRequire, exports, module);
+    module.exports = n(commonjsRequire, exports2, module);
   }(commonjsGlobal, function(a, n, t2) {
     var e = function(a2, n2, t3, e2, i, r) {
       function o(a3) {
@@ -38630,6 +38630,15 @@ const keywords = [
   "framework"
 ];
 const main = "dist/viewuiplus.min.js";
+const exports = {
+  ".": {
+    types: "./types/index.d.ts",
+    "import": "./dist/esm/index.js",
+    require: "./dist/viewuiplus.min.js"
+  },
+  "./*": "./*.js",
+  "./*.json": "./*.json"
+};
 const typings = "types/index.d.ts";
 const files = [
   "dist",
@@ -38638,10 +38647,11 @@ const files = [
 ];
 const scripts = {
   dev: "vue-cli-service serve",
-  build: "npm run build:prod && npm run build:style && npm run build:lang",
+  build: "npm run build:prod && npm run build:esm && npm run build:style && npm run build:lang",
   "build:style": "gulp --gulpfile build/build-style.js",
   "build:prod": "vite build",
   "build:lang": "vite build --config build/vite.lang.config.js",
+  "build:esm": "vite build --config build/vite.esm.config.js",
   lint: "vue-cli-service lint --fix"
 };
 const repository = {
@@ -38723,6 +38733,7 @@ var pkg = {
   homepage,
   keywords,
   main,
+  exports,
   typings,
   files,
   scripts,
